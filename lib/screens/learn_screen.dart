@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/topic.dart';
-import '../main.dart'; // LanguageProvider (will refactor later)
+import '../main.dart';
+import 'quiz_screen.dart';
 
 class LearnScreen extends StatefulWidget {
   final Topic topic;
@@ -32,7 +33,6 @@ class _LearnScreenState extends State<LearnScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Title
             Text(
               title,
               style: GoogleFonts.poppins(
@@ -42,8 +42,6 @@ class _LearnScreenState extends State<LearnScreen> {
               ),
             ),
             const SizedBox(height: 20),
-
-            // Paragraph
             Expanded(
               child: SingleChildScrollView(
                 child: Text(
@@ -57,11 +55,8 @@ class _LearnScreenState extends State<LearnScreen> {
               ),
             ),
             const SizedBox(height: 20),
-
-            // Buttons
             Row(
               children: [
-                // Listen button
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () async {
@@ -84,18 +79,13 @@ class _LearnScreenState extends State<LearnScreen> {
                   ),
                 ),
                 const SizedBox(width: 12),
-
-                // Quiz button
                 Expanded(
                   child: ElevatedButton(
                     onPressed: () {
-                      // TODO: Navigate to QuizScreen (will be created next)
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            isHindi ? 'क्विज़ जल्द आ रहा है' : 'Quiz coming soon',
-                          ),
-                          duration: const Duration(seconds: 1),
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => QuizScreen(topic: widget.topic),
                         ),
                       );
                     },
