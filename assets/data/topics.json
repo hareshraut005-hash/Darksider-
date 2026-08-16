@@ -1,0 +1,32 @@
+[
+  {
+    "topicId": "dark-psychology",
+    "title": {
+      "en": "Dark Psychology",
+      "hi": "डार्क साइकोलॉजी"
+    },
+    "paragraph": {
+      "en": "Dark Psychology is the study of the human condition as it relates to the psychological nature of people to prey upon others. It encompasses all that makes us who we are in relation to our dark side. This includes manipulation, coercion, and mind control techniques used by individuals to exploit others for their own gain.",
+      "hi": "डार्क साइकोलॉजी मानव स्थिति का अध्ययन है जो लोगों के दूसरों पर शिकार करने की मनोवैज्ञानिक प्रकृति से संबंधित है। इसमें वह सब कुछ शामिल है जो हमें हमारे अंधेरे पक्ष के संबंध में बनाता है। इसमें हेरफेर, जबरदस्ती और मन नियंत्रण तकनीकें शामिल हैं जिनका उपयोग व्यक्ति अपने लाभ के लिए दूसरों का शोषण करने के लिए करते हैं।"
+    },
+    "tts": {
+      "en": "",
+      "hi": ""
+    }
+  },
+  {
+    "topicId": "human-psychology",
+    "title": {
+      "en": "Human Psychology",
+      "hi": "मानव मनोविज्ञान"
+    },
+    "paragraph": {
+      "en": "Human psychology is the science of mind and behavior. It includes the study of conscious and unconscious phenomena, as well as feeling and thought. It aims to understand individuals and groups by establishing general principles and researching specific cases.",
+      "hi": "मानव मनोविज्ञान मन और व्यवहार का विज्ञान है। इसमें चेतन और अचेतन घटनाओं के साथ-साथ भावना और विचार का अध्ययन शामिल है। इसका उद्देश्य सामान्य सिद्धांतों की स्थापना और विशिष्ट मामलों पर शोध करके व्यक्तियों और समूहों को समझना है।"
+    },
+    "tts": {
+      "en": "",
+      "hi": ""
+    }
+  }
+]
