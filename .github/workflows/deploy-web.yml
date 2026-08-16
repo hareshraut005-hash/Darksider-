@@ -20,14 +20,11 @@ jobs:
           flutter-version: 'stable'
           channel: 'stable'
 
-      - name: Generate missing folders (including web)
-        run: flutter create --project-name darksider --org com.darksider .
-
       - name: Get dependencies
         run: flutter pub get
 
       - name: Build Web
-        run: flutter build web --release
+        run: flutter build web --release --base-href /Darksider/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
