@@ -1,0 +1,77 @@
+[
+  {
+    "topicId": "dark-psychology",
+    "id": 1,
+    "question": {
+      "en": "What is Dark Psychology primarily concerned with?",
+      "hi": "डार्क साइकोलॉजी मुख्य रूप से किससे संबंधित है?"
+    },
+    "options": [
+      { "en": "Understanding positive thinking", "hi": "सकारात्मक सोच को समझना" },
+      { "en": "Studying manipulation and coercion", "hi": "हेरफेर और जबरदस्ती का अध्ययन" },
+      { "en": "Learning meditation techniques", "hi": "ध्यान तकनीक सीखना" },
+      { "en": "Improving memory", "hi": "याददाश्त में सुधार" }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "topicId": "dark-psychology",
+    "id": 2,
+    "question": {
+      "en": "Which of the following is a common tactic in dark psychology?",
+      "hi": "निम्नलिखित में से कौन सा डार्क साइकोलॉजी में एक सामान्य चाल है?"
+    },
+    "options": [
+      { "en": "Empathy", "hi": "सहानुभूति" },
+      { "en": "Gaslighting", "hi": "गैसलाइटिंग" },
+      { "en": "Active listening", "hi": "सक्रिय सुनना" },
+      { "en": "Compassion", "hi": "करुणा" }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "topicId": "dark-psychology",
+    "id": 3,
+    "question": {
+      "en": "Why do people use dark psychology techniques?",
+      "hi": "लोग डार्क साइकोलॉजी तकनीकों का उपयोग क्यों करते हैं?"
+    },
+    "options": [
+      { "en": "To help others", "hi": "दूसरों की मदद करने के लिए" },
+      { "en": "For personal gain", "hi": "व्यक्तिगत लाभ के लिए" },
+      { "en": "To build trust", "hi": "विश्वास बनाने के लिए" },
+      { "en": "To promote fairness", "hi": "निष्पक्षता को बढ़ावा देने के लिए" }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "topicId": "human-psychology",
+    "id": 1,
+    "question": {
+      "en": "What does human psychology study?",
+      "hi": "मानव मनोविज्ञान किसका अध्ययन करता है?"
+    },
+    "options": [
+      { "en": "Only conscious mind", "hi": "केवल चेतन मन" },
+      { "en": "Mind and behavior", "hi": "मन और व्यवहार" },
+      { "en": "Physical health", "hi": "शारीरिक स्वास्थ्य" },
+      { "en": "Social media trends", "hi": "सोशल मीडिया रुझान" }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "topicId": "human-psychology",
+    "id": 2,
+    "question": {
+      "en": "Which of the following is a subfield of psychology?",
+      "hi": "निम्नलिखित में से कौन सा मनोविज्ञान का उपक्षेत्र है?"
+    },
+    "options": [
+      { "en": "Astronomy", "hi": "खगोल विज्ञान" },
+      { "en": "Behavioral psychology", "hi": "व्यवहारिक मनोविज्ञान" },
+      { "en": "Geology", "hi": "भूविज्ञान" },
+      { "en": "Chemistry", "hi": "रसायन विज्ञान" }
+    ],
+    "correctIndex": 1
+  }
+]
