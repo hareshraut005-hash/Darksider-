@@ -1,0 +1,35 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.build/
+build/
+pubspec.lock
+.idea/
+*.iml
+.vscode/
+*.log
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/release/
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Misc
+*.pyc
+.DS_Store
