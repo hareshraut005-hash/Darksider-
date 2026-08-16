@@ -3,7 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/topic.dart';
 import '../services/data_loader.dart';
-import '../main.dart'; // For LanguageProvider (defined in main.dart for now)
+import '../main.dart';
+import 'learn_screen.dart';
 
 class TopicsScreen extends StatefulWidget {
   const TopicsScreen({super.key});
@@ -91,15 +92,10 @@ class _TopicsScreenState extends State<TopicsScreen> {
                     size: 18,
                   ),
                   onTap: () {
-                    // TODO: Navigate to LearnScreen for this topic
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(
-                          isHindi
-                              ? '${topic.getTitle('hi')} जल्द आ रहा है'
-                              : '${topic.getTitle('en')} coming soon',
-                        ),
-                        duration: const Duration(seconds: 1),
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => LearnScreen(topic: topic),
                       ),
                     );
                   },
